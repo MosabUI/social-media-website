@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Social Media Website</title>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <h2 class="log">
+                Mix-Social
+            </h2>
+            <div class="search-bar">
+                <i class="fa fa-search"></i>
+                <input type="search" placeholder="search for creators, inspirations, and projects">
+            </div>
+            <div class="create">
+                <label class="btn btn-primary" for="create-post">Create</label>
+                <div class="profile-picture">
+                    <img src="./images/profile-1.jpg" alt="profile">
+                </div>
+            </div>
+        </div>
+    </nav>
+   <!-- main section  -->
+   <main>
+    <div class="container">
+        <!-- left side  -->
+        <div class="left">
+            <a  class="profile">
+                <div class="profile-picture">
+                  <img src="./images/profile-1.jpg" alt="profile">
+                </div>
+                <div class="handle">
+                    <h4>Sara</h4>
+                    <p class="text-muted">
+                        @sara
+                    </p>
+                </div>
+
+            </a>
+
+            <!-- side bar -->
+            <a class="menu-item">
+             <div class="side-bar">
+                    <span><i class="fa fa-home"></i></span> <h3>Home</h3>
+                </a>
+                <a class="menu-item">
+                    <span><i class="fa fa-compass"></i></span> <h3>Explore</h3>
+                </a>
+                <a class="menu-item" id="notifications">
+                    <span><i class="fa fa-bell"><small class="notifications-count">9+</small></i></span> <h3>Notification</h3>
+                    <div class="notifications-popup">
+                        <div>
+                            <div class="profile-picture">
+                                <img src="./images/profile-2.jpg" alt="pic">
+                            </div>
+                            <div class="notification-body">
+                                <b>Ashely Doe</b> accept your friend request
+                                <small class="text-muted">2 HOURS AGO</small>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="profile-picture">
+                                <img src="./images/profile-3.jpg" alt="pic">
+                            </div>
+                            <div class="notification-body">
+                                <b>John Leans</b> accept your friend request
+                                <small class="text-muted">10 HOURS AGO</small>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="profile-picture">
+                                <img src="./images/profile-2.jpg" alt="pic">
+                            </div>
+                            <div class="notification-body">
+                                <b>Luis</b> accept your friend request
+                                <small class="text-muted">15 HOURS AGO</small>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="profile-picture">
+                                <img src="./images/profile-4.jpg" alt="pic">
+                            </div>
+                            <div class="notification-body">
+                                <b>Sofi Seams</b> accept your friend request
+                                <small class="text-muted">1 DAYS AGO</small>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="profile-picture">
+                                <img src="./images/profile-5.jpg" alt="pic">
+                            </div>
+                            <div class="notification-body">
+                                <b>Sara Lauren</b> accept your friend request
+                                <small class="text-muted">1 DAYS AGO</small>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="profile-picture">
+                                <img src="./images/profile-6.jpg" alt="pic">
+                            </div>
+                            <div class="notification-body">
+                                <b>Benjamin Rams</b> accept your friend request
+                                <small class="text-muted">2 DAYS AGO</small>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="profile-picture">
+                                <img src="./images/profile-7.jpg" alt="pic">
+                            </div>
+                            <div class="notification-body">
+                                <b>Rami ramsi</b> accept your friend request
+                                <small class="text-muted">3 DAYS AGO</small>
+                            </div>
+                        </div>
+                    </div>
+                    </a>
+                    <a class="menu-item" id="messages-notifications">
+                        <span><i class="fa fa-message"><small class="notifications-count">5</small></i></span> <h3>Message</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="fa fa-bookmark"></i></span> <h3>Bookmarks</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="fa fa-chart-line"></i></span> <h3>Analytics</h3>
+                    </a>
+                    <a class="menu-item" id="theme">
+                        <span><i class="fa fa-palette"></i></span> <h3>theme</h3>
+                   </a>
+                <a class="menu-item">
+                    <span><i class="fa fa-gear"></i></span> <h3>Settings</h3>
+                </a>
+            </div>
+                <label for="create-post" class="btn btn-primary">Create Post</label>
+            </div>
+            
+            <!-- end od side bar -->
+            
+            <!-- middle  -->
+            <div class="middle">
+                <div class="stories">
+                    <div class="store">
+                        <div class="profile-picture">
+                            <img src="./images/profile-8.jpg" alt="store">
+                        </div>
+                        <p class="name">Your Store</p>
+                    </div>
+                    <div class="store">
+                        <div class="profile-picture">
+                            <img src="./images/profile-9.jpg" alt="store">
+                        </div>
+                        <p class="name">Laily</p>
+                    </div>
+                    <div class="store">
+                        <div class="profile-picture">
+                            <img src="./images/profile-9.jpg" alt="store">
+                        </div>
+                        <p class="name">Luis</p>
+                    </div>
+                    <div class="store">
+                        <div class="profile-picture">
+                            <img src="./images/profile-10.jpg" alt="store">
+                        </div>
+                        <p class="name">Martinille</p>
+                    </div>
+                    <div class="store">
+                        <div class="profile-picture">
+                            <img src="./images/profile-11.jpg" alt="store">
+                        </div>
+                        <p class="name">Sofia</p>
+                    </div>
+                    <div class="store">
+                        <div class="profile-picture">
+                            <img src="./images/profile-12.jpg" alt="store">
+                        </div>
+                        <p class="name">Smith</p>
+                    </div>
+                    
+                </div>
+
+                 <!-- end fo stories -->
+                 <form class="create-post">
+                    <div class="profile-picture">
+                        <img src="./images/profile-1.jpg" alt="post">
+                    </div>
+                    <input type="text" placeholder="What's on your mind, Diana ?" id="create-post">
+                    <input type="submit" class="btn btn-primary" value="post">
+                 </form>
+
+                 <!-- feeds -->
+                 <div class="feeds">
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-picture">
+                                    <img src="./images/profile-13.jpg" alt="feed">
+                                </div>
+                                <div class="info">
+                                    <h3>May Garcia</h3>
+                                    <small class="text-muted">Madrid, 20 MINUTES AGO</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="fa fa-ellipsis"></i>
+                            </span>
+                        </div>
+
+
+                        <div class="photo">
+                          <img src="./images/feed-1.jpg" alt="feel">
+                        </div>
+
+                        <div class="action-button">
+                            <div class="interaction-button">
+                                 <span>
+                                    <i class="fa-regular fa-heart"></i>
+                                 </span>
+                                 <span>
+                                    <i class="fa-regular fa-comment"></i>
+                                    
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-share"></i>
+                                 </span>
+                            </div>
+                            <div class="bookmark">
+                                        <i class="fa-regular fa-bookmark"></i>
+                            </div>
+                        </div>
+
+
+                        <div class="liked-by">
+                            <span><img src="./images/profile-10.jpg" alt=""></span>
+                            <span><img src="./images/profile-4.jpg" alt=""></span>
+                            <span><img src="./images/profile-14.jpg" alt=""></span>
+                            <p>liked by <b>Daniel Marien</b> and <b>2,357 others</b></p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>May Garcia</b>Lorem ipsum dolor sit amet consectetur adipisicing <span class="hash-tag">#lifestyle</span></p>
+                        </div>
+
+                        <div class="comments text-muted">
+                            View all 3442 comments
+                        </div>
+
+
+                    </div>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-picture">
+                                    <img src="./images/profile-18.jpg" alt="feed">
+                                </div>
+                                <div class="info">
+                                    <h3>Luis Bartes</h3>
+                                    <small class="text-muted">Tokyo, 9 MINUTES AGO</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="fa fa-ellipsis"></i>
+                            </span>
+                        </div>
+
+
+                        <div class="photo">
+                          <img src="./images/feed-2.jpg" alt="feel">
+                        </div>
+
+                        <div class="action-button">
+                            <div class="interaction-button">
+                                 <span>
+                                    <i class="fa-regular fa-heart"></i>
+                                 </span>
+                                 <span>
+                                    <i class="fa-regular fa-comment"></i>
+                                    
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-share"></i>
+                                 </span>
+                            </div>
+                            <div class="bookmark">
+                                        <i class="fa-regular fa-bookmark"></i>
+                            </div>
+                        </div>
+
+
+                        <div class="liked-by">
+                            <span><img src="./images/profile-10.jpg" alt=""></span>
+                            <span><img src="./images/profile-4.jpg" alt=""></span>
+                            <span><img src="./images/profile-14.jpg" alt=""></span>
+                            <p>liked by <b>Daniel Marien</b> and <b>1,357 others</b></p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Luis Bartes</b>Lorem ipsum dolor sit amet consectetur adipisicing <span class="hash-tag">#lifestyle</span></p>
+                        </div>
+
+                        <div class="comments text-muted">
+                            View all 3442 comments
+                        </div>
+
+
+                    </div>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-picture">
+                                    <img src="./images/profile-8.jpg" alt="feed">
+                                </div>
+                                <div class="info">
+                                    <h3>John Doe</h3>
+                                    <small class="text-muted">France, 11 MINUTES AGO</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="fa fa-ellipsis"></i>
+                            </span>
+                        </div>
+
+
+                        <div class="photo">
+                          <img src="./images/feed-3.jpg" alt="feel">
+                        </div>
+
+                        <div class="action-button">
+                            <div class="interaction-button">
+                                 <span>
+                                    <i class="fa-regular fa-heart"></i>
+                                 </span>
+                                 <span>
+                                    <i class="fa-regular fa-comment"></i>
+                                    
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-share"></i>
+                                 </span>
+                            </div>
+                            <div class="bookmark">
+                                        <i class="fa-regular fa-bookmark"></i>
+                            </div>
+                        </div>
+
+
+                        <div class="liked-by">
+                            <span><img src="./images/profile-10.jpg" alt=""></span>
+                            <span><img src="./images/profile-4.jpg" alt=""></span>
+                            <span><img src="./images/profile-14.jpg" alt=""></span>
+                            <p>liked by <b>Daniel Marien</b> and <b>2,357 others</b></p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>John Doe</b>Lorem ipsum dolor sit amet consectetur adipisicing <span class="hash-tag">#lifestyle</span></p>
+                        </div>
+
+                        <div class="comments text-muted">
+                            View all 442 comments
+                        </div>
+
+
+                    </div>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-picture">
+                                    <img src="./images/profile-15.jpg" alt="feed">
+                                </div>
+                                <div class="info">
+                                    <h3>Sara Jane</h3>
+                                    <small class="text-muted">Bacelona, 45 MINUTES AGO</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="fa fa-ellipsis"></i>
+                            </span>
+                        </div>
+
+
+                        <div class="photo">
+                          <img src="./images/feed-4.jpg" alt="feel">
+                        </div>
+
+                        <div class="action-button">
+                            <div class="interaction-button">
+                                 <span>
+                                    <i class="fa-regular fa-heart"></i>
+                                 </span>
+                                 <span>
+                                    <i class="fa-regular fa-comment"></i>
+                                    
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-share"></i>
+                                 </span>
+                            </div>
+                            <div class="bookmark">
+                                        <i class="fa-regular fa-bookmark"></i>
+                            </div>
+                        </div>
+
+
+                        <div class="liked-by">
+                            <span><img src="./images/profile-10.jpg" alt=""></span>
+                            <span><img src="./images/profile-4.jpg" alt=""></span>
+                            <span><img src="./images/profile-14.jpg" alt=""></span>
+                            <p>liked by <b>Daniel Marien</b> and <b>2,357 others</b></p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Sara Jane </b>Lorem ipsum dolor sit amet consectetur adipisicing <span class="hash-tag">#lifestyle</span></p>
+                        </div>
+
+                        <div class="comments text-muted">
+                            View all 32 comments
+                        </div>
+
+
+                    </div>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-picture">
+                                    <img src="./images/profile-18.jpg" alt="feed">
+                                </div>
+                                <div class="info">
+                                    <h3>Martin cona</h3>
+                                    <small class="text-muted">Ghana, 1 DAY AGO</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="fa fa-ellipsis"></i>
+                            </span>
+                        </div>
+
+
+                        <div class="photo">
+                          <img src="./images/feed-5.jpg" alt="feel">
+                        </div>
+
+                        <div class="action-button">
+                            <div class="interaction-button">
+                                 <span>
+                                    <i class="fa-regular fa-heart"></i>
+                                 </span>
+                                 <span>
+                                    <i class="fa-regular fa-comment"></i>
+                                    
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-share"></i>
+                                 </span>
+                            </div>
+                            <div class="bookmark">
+                                        <i class="fa-regular fa-bookmark"></i>
+                            </div>
+                        </div>
+
+
+                        <div class="liked-by">
+                            <span><img src="./images/profile-10.jpg" alt=""></span>
+                            <span><img src="./images/profile-4.jpg" alt=""></span>
+                            <span><img src="./images/profile-14.jpg" alt=""></span>
+                            <p>liked by <b>Daniel Marien</b> and <b>2,357 others</b></p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Martin cona</b>Lorem ipsum dolor sit amet consectetur adipisicing <span class="hash-tag">#lifestyle</span></p>
+                        </div>
+
+                        <div class="comments text-muted">
+                            View all 842 comments
+                        </div>
+
+
+                    </div>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-picture">
+                                    <img src="./images/profile-15.jpg" alt="feed">
+                                </div>
+                                <div class="info">
+                                    <h3>Samoul Jensa</h3>
+                                    <small class="text-muted">USA, 2 DAY AGO</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="fa fa-ellipsis"></i>
+                            </span>
+                        </div>
+
+
+                        <div class="photo">
+                          <img src="./images/feed-6.jpg" alt="feel">
+                        </div>
+
+                        <div class="action-button">
+                            <div class="interaction-button">
+                                 <span>
+                                    <i class="fa-regular fa-heart"></i>
+                                 </span>
+                                 <span>
+                                    <i class="fa-regular fa-comment"></i>
+                                    
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-share"></i>
+                                 </span>
+                            </div>
+                            <div class="bookmark">
+                                        <i class="fa-regular fa-bookmark"></i>
+                            </div>
+                        </div>
+
+
+                        <div class="liked-by">
+                            <span><img src="./images/profile-10.jpg" alt=""></span>
+                            <span><img src="./images/profile-4.jpg" alt=""></span>
+                            <span><img src="./images/profile-14.jpg" alt=""></span>
+                            <p>liked by <b>Daniel Marien</b> and <b>2,357 others</b></p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Samoul Jensa</b>Lorem ipsum dolor sit amet consectetur adipisicing <span class="hash-tag">#lifestyle</span></p>
+                        </div>
+
+                        <div class="comments text-muted">
+                            View all 230 comments
+                        </div>
+
+
+                    </div>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-picture">
+                                    <img src="./images/profile-20.jpg" alt="feed">
+                                </div>
+                                <div class="info">
+                                    <h3>Lara Bouno</h3>
+                                    <small class="text-muted">Berlin, 2 DAY AGO</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="fa fa-ellipsis"></i>
+                            </span>
+                        </div>
+
+
+                        <div class="photo">
+                          <img src="./images/feed-7.jpg" alt="feel">
+                        </div>
+
+                        <div class="action-button">
+                            <div class="interaction-button">
+                                 <span>
+                                    <i class="fa-regular fa-heart"></i>
+                                 </span>
+                                 <span>
+                                    <i class="fa-regular fa-comment"></i>
+                                    
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-share"></i>
+                                 </span>
+                            </div>
+                            <div class="bookmark">
+                                        <i class="fa-regular fa-bookmark"></i>
+                            </div>
+                        </div>
+
+
+                        <div class="liked-by">
+                            <span><img src="./images/profile-10.jpg" alt=""></span>
+                            <span><img src="./images/profile-4.jpg" alt=""></span>
+                            <span><img src="./images/profile-14.jpg" alt=""></span>
+                            <p>liked by <b>Daniel Marien</b> and <b>2,357 others</b></p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Lara Bouno</b>Lorem ipsum dolor sit amet consectetur adipisicing <span class="hash-tag">#lifestyle</span></p>
+                        </div>
+
+                        <div class="comments text-muted">
+                            View all 290 comments
+                        </div>
+
+
+                    </div>
+                 </div>
+            </div>
+            
+            <!-- right side  -->
+            <div class="right">
+                <div class="messages">
+
+                    <div class="heading">
+                        <h4>Message</h4> <i class="fa fa-edit"></i>
+                    </div>
+                    
+                    <div class="search-bar">
+                        <i class="fa fa-search"></i>
+                        <input type="search" id="message-search" placeholder="Search message">
+                    </div>
+                    <div class="category">
+                        <h6 class="active">Primary</h6>
+                        <h6>General</h6>
+                        <h6 class="message-request">Requests(6)</h6>
+                    </div>
+                  <div class="message">
+                    <div class="profile-picture">
+                        <img src="./images/profile-7.jpg" alt="message">
+                       <div class="active"></div>
+                    </div>
+                    <div class="message-body">
+                        <h5>Jastin Mola</h5>
+                        <p class="text-muted">Good morning</p>
+                    </div>
+
+                  </div>
+                  <div class="message">
+                    <div class="profile-picture">
+                        <img src="./images/profile-20.jpg" alt="message">
+                       <div class="active"></div>
+                    </div>
+                    <div class="message-body">
+                        <h5>Sandy Mola</h5>
+                        <p class="text-bold">I'm going now...</p>
+                    </div>
+
+                  </div>
+                  <div class="message">
+                    <div class="profile-picture">
+                        <img src="./images/profile-16.jpg" alt="message">
+                    </div>
+                    <div class="message-body">
+                        <h5>Vanissa sola</h5>
+                        <p class="text-bold">Loong trip</p>
+                    </div>
+
+                  </div>
+                  <div class="message">
+                    <div class="profile-picture">
+                        <img src="./images/profile-13.jpg" alt="message">
+                    </div>
+                    <div class="message-body">
+                        <h5>Nadia Betra</h5>
+                        <p class="text-bold">That was awesome</p>
+                    </div>
+
+                  </div>
+                  <div class="message">
+                    <div class="profile-picture">
+                        <img src="./images/profile-7.jpg" alt="message">
+                    </div>
+                    <div class="message-body">
+                        <h5>Demetre Voca</h5>
+                        <p class="text-bold">Hi Bro</p>
+                    </div>
+
+                  </div>
+                  <div class="message">
+                    <div class="profile-picture">
+                        <img src="./images/profile-11.jpg" alt="message">
+                    </div>
+                    <div class="message-body">
+                        <h5>Martie Jane</h5>
+                        <p class="text-bold">No  i wasn't</p>
+                    </div>
+
+                  </div>
+
+                </div>
+                <!-- end messages  -->
+
+                <div class="friend-request">
+                     <h4>Requests</h4>
+                     <div class="request">
+                        <div class="info">
+                            <div class="profile-picture">
+                                <img src="./images/profile-10.jpg" alt="req">
+                            </div>
+                            <div>
+                                <h5>Richal Moss</h5>
+                                <p class="text-muted">4 Mutual friend</p>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">
+                                Accept
+                            </button>
+                            <button class="btn">
+                                Decline
+                            </button>
+
+                        </div>
+                     </div>
+                     <div class="request">
+                        <div class="info">
+                            <div class="profile-picture">
+                                <img src="./images/profile-5.jpg" alt="req">
+                            </div>
+                            <div>
+                                <h5>Sofi  Notre</h5>
+                                <p class="text-muted">9 Mutual friend</p>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">
+                                Accept
+                            </button>
+                            <button class="btn">
+                                Decline
+                            </button>
+
+                        </div>
+                     </div>
+                     <div class="request">
+                        <div class="info">
+                            <div class="profile-picture">
+                                <img src="./images/profile-7.jpg" alt="req">
+                            </div>
+                            <div>
+                                <h5>Smith Bento</h5>
+                                <p class="text-muted">6 Mutual friend</p>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">
+                                Accept
+                            </button>
+                            <button class="btn">
+                                Decline
+                            </button>
+
+                        </div>
+                     </div>
+                     <div class="request">
+                        <div class="info">
+                            <div class="profile-picture">
+                                <img src="./images/profile-12.jpg" alt="req">
+                            </div>
+                            <div>
+                                <h5>Moso Jase</h5>
+                                <p class="text-muted">2 Mutual friend</p>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">
+                                Accept
+                            </button>
+                            <button class="btn">
+                                Decline
+                            </button>
+
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+   </main>
+  <!-- theme cutomization  -->
+    <div class="customize-theme">
+        <div class="card">
+            <h2>Customize your view</h2>
+            <p class="text-muted">Manage your font size, color, and background</p>
+
+            <!-- font  -->
+            <div class="font-size">
+                <h4>Font size</h4>
+                <div>
+                  <h6>Aa</h6>
+                  <div class="choose-size">
+                    <span class="font-size-1"></span>
+                    <span class="font-size-2"></span>
+                    <span class="font-size-3"></span>
+                    <span class="font-size-4"></span>
+                    <span class="font-size-5"></span>
+                  </div>
+                  <h3>Aa</h3>
+                </div>
+            </div>
+
+            <!-- colors  -->
+          <div class="color">
+            <h4>Color</h4>
+            <div class="choose-color">
+                <span class="color-1 active"></span>
+                <span class="color-2"></span>
+                <span class="color-3"></span>
+                <span class="color-4"></span>
+                <span class="color-5"></span>
+            </div>
+          </div>
+
+          <!-- background color  -->
+
+          <div class="background">
+            <h4>Background</h4>
+            <div class="choose-bg active">
+                <div class="bg-1">
+                    <span></span>
+                    <h5 for="bg-1">Light</h5>
+                </div>
+                <div class="bg-2">
+                    <span></span>
+                    <h5 for="bg-2">Dim</h5>
+                </div>
+                <div class="bg-3">
+                    <span></span>
+                    <h5 for="bg-3">Lights Out</h5>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+
+ <script src="./index.js"></script>    
+</body>
+</html>
